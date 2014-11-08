@@ -1,6 +1,6 @@
 body {
 	background:grey;
-	background-image:url("assets/stripes.png"), url("assets/background.jpg");
+	background-image:url("Assets/stripes.png"), url("Assets/background.jpg");
 	background-repeat: repeat-x, no-repeat;
 	margin:0px;
 }

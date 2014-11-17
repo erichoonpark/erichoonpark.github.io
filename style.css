@@ -1,17 +1,15 @@
 body {
-	background: #5B6171;
+	background-image:url('images/background.jpg');
 	font-family: Open Sans;
 	margin-left: 50px;
 }
 
 h1 {
 	color:white;
-	text-align:left;
+	text-align:center;
 	font-family: Lobster;
 	font-size: 90px;
-	margin: 0px;
-	margin-left: 100px;
-
+	magin:0px 0px 0px 0px;
 }
 
 p {
@@ -21,7 +19,9 @@ p {
 }
 
 hr {
-	margin-top: 0px;
+	margin:0px 0px 0px 0px;
+	text-align: center;
+	width:50px;
 }
 
 .units{

@@ -11,7 +11,6 @@
 		}
 		#map-background,
 		#map-container,
-		#map-overlay,
 
 		#content {
 		  width: 100%;
@@ -24,9 +23,6 @@
 		#map-container {
 		  z-index: 0;
 		}
-		#map-overlay {
-		  z-index: 1;
-		  background: none;
 
 		}
 		#content {
@@ -44,10 +40,8 @@
   	</div>
   	<div id="content">
     <!-- This is where your regular content should be -->
-    <p style="color: #fff; text-align: center; font-family: Helvetica; font-size: 2.0em;">This is where your foreground code should be.</p>
+    <p style="color: #fff; text-align: center; font-family: Helvetica; font-size: 2.0em;">Are you happy?</p>
   	</div>
-    <div id="map-overlay">
-    </div>
   <script type="text/javascript">
   	L.mapbox.accessToken = 'pk.eyJ1IjoiZXJpY3BhcmsiLCJhIjoiS3pKZ0duVSJ9.tLg7r9w5zppYheaOYcv_DA';
 	var map = L.mapbox.map('map-container', 'ericpark.k8ehofdl');

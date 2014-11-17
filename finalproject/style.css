@@ -1,3 +1,3 @@
 body {
-	background-image: url("https://a.tiles.mapbox.com/v4/ericpark.k8ehofdl/page.html?access_token=pk.eyJ1IjoiZXJpY3BhcmsiLCJhIjoiS3pKZ0duVSJ9.tLg7r9w5zppYheaOYcv_DA#3/40.11/-51.15");
+	background-image: url('http://api.tiles.mapbox.com/v4/ericpark.k8ehofdl/-73.75,42.65,3/1280x1280.png?access_token=pk.eyJ1IjoiZXJpY3BhcmsiLCJhIjoiS3pKZ0duVSJ9.tLg7r9w5zppYheaOYcv_DA');
 }

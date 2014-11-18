@@ -1,3 +1,37 @@
-body {
-	background-image: url('http://api.tiles.mapbox.com/v4/ericpark.k8ehofdl/-73.75,42.65,3/1280x1280.png?access_token=pk.eyJ1IjoiZXJpY3BhcmsiLCJhIjoiS3pKZ0duVSJ9.tLg7r9w5zppYheaOYcv_DA');
-}
+html,
+		body {
+		  height: 100%;
+		  margin: 0px;
+		  padding: 0px
+		}
+		#map-background,
+		#map-container,
+		#map-overlay,
+
+		#content {
+		  width: 100%;
+		  min-height: 100%;
+		  position: absolute;
+		}
+		#map-background {
+		  z-index: -1;
+		}
+		#map-container {
+		  z-index: 0;
+		}
+		#map-overlay {
+		  z-index: 1;
+		  background: none;
+
+		}
+		#content {
+		  z-index: 0;
+		}
+		
+		p {
+			color: #fff; 
+			text-align: center; 
+			font-family: Helvetica; 
+			font-size: 2.0em;
+			margin-top: 200px;
+		}

@@ -1,0 +1,76 @@
+ body {
+ 	margin: 0 0 0 0;
+ }
+
+ .lefthalf{
+ 	background-image: url('images/background.jpg');
+	width:50%;
+	height:100%;
+	position: fixed;
+}
+
+h1{
+	color:white;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 500px;
+	font-family:Ubuntu;
+	font-size: 80px;
+}
+.righthalf {			/*I don't understand why I need a seperate class for this */ 
+	width:50%;
+	float:right;
+}
+
+.units {
+	height:58px;
+	line-height: 58px;
+	text-align: center;
+	vertical-align: middle;
+	font-family: Ubuntu;
+	font-size: 20px;
+}
+
+#unit1 {
+	background:salmon;
+}
+
+#unit2 {
+	background:#FFB347;
+}
+
+#unit3 {
+	background:#779ECB;
+}
+
+#unit4 {
+	background:#F49AC2;
+}
+
+#unit5 {
+	background:grey;
+}
+
+#unit6 {
+	background:grey;
+}
+
+#unit7 {
+	background:grey;
+}
+
+#unit8 {
+	background:grey;
+}
+
+#unit9 {
+	background:grey;
+}
+
+#unit10 {
+	background:grey;
+}
+
+#finalproject{
+	background:cyan;
+}

@@ -1,39 +1,42 @@
-body {
-	background: url('images/background2.jpg');
-	margin:0 0 0 0;
-	background-size: 100%;
+* {
+	margin: 0;
 }
 
-h1{
+#homepage {
+	background: url('images/background2.jpg');
+	margin:0 0 0 0;
+	background-size: cover;
 	font-family: 'Raleway', sans-serif;
-	text-align: center;
-	color:white;
-	vertical-align: middle;
-	font-size:70px;
-	margin:220px 0 0 0;
+	background-repeat:no-repeat;
+}
+
+body {
+	margin:0 0 0 0;
+	background-size: cover;
+	font-family: 'Raleway', sans-serif;
+	background-repeat:no-repeat;
 }
 
 nav {
 	background-color: #2D3E50;
 	height:40px;
 	width:100%;
-	top:0;
 	margin:0 0 0 0;
 	display:block;
 }
 
 .menubuttons {
+	float:left;
 	display:block;
 	margin: 0;
 }
 
 .menubuttons li {
-	font-family: 'Raleway', sans-serif;
 	font-size: 17px;
 	float:left;
 	display:inline;
 	line-height: 40px;
-	margin: 0 5px 0 60px;
+	margin: 0 50px 0 0;
 	text-decoration: none;
 }
 
@@ -55,38 +58,74 @@ ul {
 	line-height: 40px;
 }
 
+h1 {
+	text-align: center;
+	color:white;
+	vertical-align: middle;
+	font-size:70px;
+	margin:220px 0 0 0;
+}
 
 h2 {
-	color:white;
-	font-size:15px;
-	text-align: center;
-	font-family: 'Raleway', sans-serif;
-	margin:0 0 0 0;
+	padding-top:20px;
+	text-align:center;
 }
 
 .button {
-    border: 2px solid #a1a1a1;
-    margin:0 auto 0 auto;
-    padding: 10px 40px; 
-    background: #2d3e50;
-    width: 100px;
-    border-radius: 5px;
+	text-align: center;
+	margin: 0 auto 0 auto;
 }
 
-a:link {
+button {
+	color:white;
+	font-size:15px;
+	border: 2px solid #a1a1a1;
+	background:#2d3e50;
+    width:140px;
+    border-radius: 5px;
+    font-family: 'Raleway';
+}
+
+.cf {
+	width:30%;
+	height:300px;
+	display:block;
+	float:left;
+}
+
+.cf img {
+	width:250px;
+	margin: 0 auto 0 auto;
+}
+#cf1 {
+	background:#FDB813;
+	margin-top: 30px 10px 0 10px;
+}
+
+#cf2 {
+	background:#62C2CC;
+	margin-top: 30px 10px 0 10px;
+}
+
+#cf3 {
+	background:#0C445C;
+	margin-top: 30px 10px 0 10px;
+}
+
+nav a:link {
 	color:white;  
 	text-decoration: none;
 }
 
-a:visited {
+nav a:visited {
     text-decoration: none;
     color:white;
 }
 
-a:hover {
+nav a:hover {
     text-decoration: underline;
 }
 
-a:active {
+nav a:active {
     text-decoration: underline;
 }

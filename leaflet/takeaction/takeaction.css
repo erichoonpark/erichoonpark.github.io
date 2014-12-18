@@ -72,7 +72,7 @@ h2 {
 	width:10px;
 }
 
-.cf1 {
+#cf1 {
 	height:250px;
 	display:inline;
 	float:left;
@@ -81,7 +81,7 @@ h2 {
 	margin: 0 20px 0 200px;
 }
 
-.cf2 {
+#cf2 {
 	height:250px;
 	display:inline;
 	float:left;
@@ -90,7 +90,7 @@ h2 {
 	margin: 0 20px 0 10px;
 }
 
-.cf3 {
+#cf3 {
 	height:250px;
 	display:inline;
 	float:left;
@@ -99,11 +99,11 @@ h2 {
 	margin: 0 20px 0 10px;
 }
 
-.cf1 a img {
+#cf1 a img {
 	padding-top: 110px;
 }
 
-.cf3 a img {
+#cf3 a img {
 	padding-top: 80px;
 }
 

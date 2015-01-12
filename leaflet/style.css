@@ -67,7 +67,7 @@ h1 {
 }
 
 h2 {
-	padding-top:20px;
+	padding:20px 0 20px 0;
 	text-align:center;
 }
 
@@ -88,15 +88,17 @@ button {
 }
 
 .cf {
-	width:30%;
-	height:300px;
+	width:100%;
+	height:150px;
 	display:block;
 	float:left;
+	margin: 0 auto 0 auto;
 }
 
 .cf img {
-	width:250px;
-	margin: 0 auto 0 auto;
+	width:300px;
+	display: block;
+	margin: 50px auto 0 auto;
 }
 #cf1 {
 	background:#FDB813;
@@ -105,7 +107,11 @@ button {
 
 #cf2 {
 	background:#62C2CC;
-	margin-top: 30px 10px 0 10px;
+	margin-top: 20px 10px 0 10px;
+}
+
+#cf2 img {
+	width:150px;
 }
 
 #cf3 {

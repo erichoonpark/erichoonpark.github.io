@@ -2,13 +2,22 @@
 	margin: 0;
 }
 
-#mission {
+#homepage {
 	background: url('assets/background.jpg');
 	margin:0 0 0 0;
 	background-size: cover;
 	font-family: 'Raleway', sans-serif;
 	background-repeat:no-repeat;
 }
+
+#mission {
+	background: url('assets/mission.jpg');
+	margin:0 0 0 0;
+	background-size: cover;
+	font-family: 'Raleway', sans-serif;
+	background-repeat:no-repeat;
+}
+
 
 body {
 	margin:0 0 0 0;
@@ -71,6 +80,27 @@ h2 {
 	text-align:center;
 }
 
+#missionquestion {
+	color:white;
+	background-color: 
+	vertical-align: middle;
+	font-size:40px;
+	margin:0 0 0 50px;
+}
+
+#missionquestion h1 {
+	float:left;
+	clear;right;
+	font-size:40px;
+	margin:100px 0 0 50px;
+}
+
+#missionquestion p {
+	float:left;
+	display:block;
+	font-size:40px;
+	margin:0px 0 0 50px;
+}
 .button {
 	text-align: center;
 	margin: 0 auto 0 auto;

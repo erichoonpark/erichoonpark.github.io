@@ -90,6 +90,9 @@ h2 {
 
 #missionquestion h1 {
 	float:left;
+	text-align: left;
+	display:block;
+	width:100%;
 	clear;right;
 	font-size:40px;
 	margin:100px 0 0 50px;

@@ -9,7 +9,6 @@
 	background: url('assets/background.jpg');
 	height: 90vh;
 	width:100%;
-	/*Background no longer resizes upon browser change*/
 	margin:0 0 0 0;
 	background-size: cover;
 	font-family: 'Raleway', sans-serif;
@@ -177,8 +176,8 @@ nav a:active {
     text-decoration: underline;
 }
 
-@media only screen and (max-width:800px) {
-	nav {
+@media only screen and (max-width:600px) {
+	ul {
 		width:100%;
 	}
 }

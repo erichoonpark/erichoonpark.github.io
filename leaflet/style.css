@@ -46,6 +46,7 @@ ul {
 /*Home Page*/
 #landing {
 	background: url('assets/background.jpg');
+	background-position:fixed;
 	height: 100vh;
 	width:100%;
 	margin:0 0 0 0;
@@ -108,12 +109,18 @@ table {
 table tr td {
 	text-align: center;
 }
+
 #equation img {
 	width:8em;
 }
 
-#equation table tr td img .plus {
-	width:1em;
+.plus {
+	width:200px;
+	height:200px;
+}
+
+.plus img {
+	width:100%;
 }
 
 table tr td p {
@@ -124,6 +131,7 @@ table tr td p {
 #wireless {
 	height:90vh;
 }
+
 
 
 #mission {

@@ -35,7 +35,7 @@ ul {
 }
 
 .socialmediaicons img {
-	height:1.4em;
+	height:1.2em;
 	line-height: 5vh;
 	display:inline;
 	float:right;
@@ -119,6 +119,13 @@ table tr td {
 table tr td p {
 	color:white;
 }
+
+/*Landing Page Section 3*/
+#wireless {
+	height:90vh;
+}
+
+
 #mission {
 	background: url('assets/mission.jpg');
 	width:100%;

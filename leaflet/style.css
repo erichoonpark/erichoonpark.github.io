@@ -43,6 +43,12 @@ ul {
 	margin: .4em .2em 0 .2em;
 }
 
+/*footer*/ 
+#footer {
+	height:5vh;
+	background-color: #2D3E50;
+}
+
 /*Home Page*/
 #landing {
 	background: url('assets/background.jpg');
@@ -98,12 +104,12 @@ button {
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
 	padding-top: 2em;
-	font-size:1em;
+	font-size:1.5em;
 }
 
 table {
 	margin: 0 auto 0 auto;
-	padding-top: 3em;
+	padding-top: .75em;
 }
 
 table tr td {
@@ -128,12 +134,32 @@ table tr td p {
 }
 
 /*Landing Page Section 3*/
-#wireless {
-	height:90vh;
+#arduino {
+	height:75vh;
 }
 
+#arduino img {
+	margin: 3em 3em 3em 3em;
+	display:block;
+	float:left;
+	width:30%;
+}
 
+.leafletdescription h2 {
+	display:inline-block;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	float:right;
+	width:50%;
+	padding-top: 5em
+}
 
+#arduino button {
+	margin: 2em auto 0 auto;
+	font-size: 2em;
+}
+
+/*Mission Page*/
 #mission {
 	background: url('assets/mission.jpg');
 	width:100%;

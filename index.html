@@ -218,15 +218,15 @@
                     <p>Ready to turn your idea into reality? Let's work together! Send me an email or give me a ring, and I will get back to you as soon as possible!</p>
                 </div>
                 <div class="col-md-4 text-center">
-                    <a href="mailto:your-email@your-domain.com"><i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i></a>
+                    <a href="mailto:your-email@your-domain.com"><i id="contact" class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i></a>
                     <p>Email</p>
                 </div>
                 <div class="col-md-4 text-center">
-                    <a href="https://www.linkedin.com/pub/eric-park/30/19a/778"><i class="fa fa-file-text-o fa-3x wow bounceIn" data-wow-delay=".1s"></i></a>
+                    <a href="https://www.linkedin.com/pub/eric-park/30/19a/778"><i id="contact" class="fa fa-file-text-o fa-3x wow bounceIn" data-wow-delay=".1s"></i></a>
                     <p>LinkedIn</p>
                 </div>
                 <div class="col-md-4 text-center">
-                    <a href="tel://+12135981088"><i class="fa fa-phone fa-3x wow bounceIn"></i></a>
+                    <a href="tel://+12135981088"><i id="contact" class="fa fa-phone fa-3x wow bounceIn"></i></a>
                     <p>213-598-1088</p>
                 </div>
             </div>
@@ -248,6 +248,9 @@
 
     <script type="text/javascript">
       mixpanel.track_links("#test", "Click Learn More Button", {
+          "referrer": document.referrer
+      });
+      mixpanel.track_links("#contact", "Contact Button", {
           "referrer": document.referrer
       });
     </script>
